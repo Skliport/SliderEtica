@@ -6,6 +6,7 @@ body {
   list-style: none;
   box-sizing: border-box;
   background: #1B212C;
+  background-image: url("images/back.jfif");
 }
 
 nav {
@@ -138,11 +139,11 @@ section {
 }
 
 .planet-links .swiper-pagination-bullet {
-  opacity: 0.2;
+  opacity: 1;
   outline: none;
 }
 .planet-links .swiper-pagination-bullet-active {
-  color: #fff;
+  color: rgb(0, 0, 0);
   opacity: 1;
 }
 
@@ -164,7 +165,7 @@ section {
 .swiper-slide {
   height: 400px !important;
   width: 90% !important;
-  background: radial-gradient(at 20% 50%,rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.05));
+  background: radial-gradient(at 20% 50%,rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.2));
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   backdrop-filter: blur(5px);
